@@ -1,8 +1,9 @@
 # Review checklist & critique loop — *nauka-logiki*
 
 Operational companion to `.github/copilot-instructions.md`. **Single source of truth** for two
-roles: the **translator** self-checking *before submitting*, and the **`translation-reviewer`**
-agent. Mirrors the English repo's `REVIEW.md`, plus a translation-specific section. Run every
+roles: the **translator** self-checking *before submitting*, and the **`translation-reviewer-claude`** +
+**`translation-reviewer-gpt`** agents (a two-vendor review pair).
+Mirrors the English repo's `REVIEW.md`, plus a translation-specific section. Run every
 round.
 
 ## The critique loop
@@ -32,8 +33,12 @@ is a manual discipline.
 **Рецензент ≠ модель автора — твёрдый инвариант.** Модель рецензента должна отличаться от модели,
 которой выпуск был *написан*; иначе это однопроходная проверка той же моделью, теряющая весь смысл
 кросс-модельной вычитки. Маршрутизация закреплена в репозитории в `.github/copilot/settings.json`
-(`subagents.agents.<name>`: здесь `translation-reviewer` → вендор, отличный от авторского, при `xhigh`
-+ `long_context`). Сменив вендора автора через `/model`, переключи `model` рецензента, чтобы не совпали.
+(`subagents.agents.<name>`): **два** рецензента, каждый на своём вендоре — `translation-reviewer-claude`
+(Opus) и `translation-reviewer-gpt` (GPT-5.5), оба при `xhigh` + `long_context`. У них разделение труда
+— Claude чаще ловит структуру, перенос канона и регрессионный дрейф; GPT — идиоматику и качество
+перевода, — поэтому при первой вычитке запускай **обоих** (проход вширь), а затем, после правок, —
+одновендорный **регрессионный** проход, пока раунд не станет чистым. Сменив вендора автора через
+`/model`, переключи модели так, чтобы автор не совпал ни с одним рецензентом.
 
 ## How to review (discipline)
 

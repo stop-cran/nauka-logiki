@@ -24,8 +24,9 @@ authorizing the next — **never batch ahead**.
 **Review process.** Translators self-check and reviewers critique against `REVIEW.md` (the
 checklist, false-friend watchlist, severity rubric, and critique loop). Run the mechanical gate
 before submitting: `node tools/check-synopsis.js` (resolves `markdown-it` from the sibling
-`science-of-logic` repo if not installed locally). The `translation-reviewer` custom agent in
-`.github/agents/` encodes the review-only reviewer role.
+`science-of-logic` repo if not installed locally). The `translation-reviewer-claude` and
+`translation-reviewer-gpt` custom agents in
+`.github/agents/` encode the review-only reviewer role (a two-vendor pair).
 
 ## Handling review feedback
 

@@ -1,8 +1,13 @@
 {
   "subagents": {
     "agents": {
-      "translation-reviewer": {
+      "translation-reviewer-claude": {
         "model": "claude-opus-4.8",
+        "effortLevel": "xhigh",
+        "contextTier": "long_context"
+      },
+      "translation-reviewer-gpt": {
+        "model": "gpt-5.5",
         "effortLevel": "xhigh",
         "contextTier": "long_context"
       }
