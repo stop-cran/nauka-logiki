@@ -25,7 +25,9 @@ Gemini) over a piece's review life: a **cross-model** pass catches canon and gra
 same-model pass tends to *rationalize away* (a cross-model pass caught «степенное отношение» and
 «категориальный дом»); a **same-model regression** pass catches consistency drift from the previous
 round's own edits. Run reviewers at high/xhigh reasoning with long context (the full translation +
-settled English + every cross-referenced sibling + both READMEs at once).
+settled English + every cross-referenced sibling + both READMEs at once). Enforce routing
+operationally where the interface supports it (Copilot CLI `/subagents`, `/model`); otherwise rotation
+is a manual discipline.
 
 ## How to review (discipline)
 
@@ -91,4 +93,4 @@ committed `.githooks/pre-commit`).
 2. **Verified ✓** — the gates and spot-checks you actually ran (incl. EN↔RU mirror).
 3. **Findings** — grouped by severity, each marked *fix* or *hold (rationale)*.
 4. **Questions** — judgment calls for the author.
-5. **Offer** to apply the agreed fixes.
+5. **Handoff** — the author applies the agreed fixes; offer to re-review the next iteration.

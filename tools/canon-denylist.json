@@ -16,6 +16,10 @@
     "message": "false friend: «впечатлительный» = impressionable; for 'impressionistic' use «по впечатлению»"
   },
   {
+    "pattern": "наход[а-яё]+\\s+сво[йё]\\s+дом",
+    "message": "«находит свой дом» (finds its home) → «находит своё средоточие» (seat/home canon)"
+  },
+  {
     "pattern": "ℏ",
     "message": "use планковское «h», not «ℏ» — house canon"
   }
