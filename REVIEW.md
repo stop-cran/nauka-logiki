@@ -15,9 +15,17 @@ round.
    rationale*, propagates any canon change to all installments and both READMEs, re-runs the
    checker, and **verifies**.
 4. Repeat until a round is **clean**: no Blocker / High / Medium findings and all mechanical
-   gates green.
+   gates green. **Stop condition:** once a round yields only **Low / Optional single-word polish**,
+   the translation is *settled* — don't spin further rounds chasing taste (diminishing returns).
 
 Never batch ahead of the author's authorization.
+
+**Rotate reviewer models across rounds.** Use at least two *different vendors* (e.g. Claude + GPT +
+Gemini) over a piece's review life: a **cross-model** pass catches canon and grammar errors a
+same-model pass tends to *rationalize away* (a cross-model pass caught «степенное отношение» and
+«категориальный дом»); a **same-model regression** pass catches consistency drift from the previous
+round's own edits. Run reviewers at high/xhigh reasoning with long context (the full translation +
+settled English + every cross-referenced sibling + both READMEs at once).
 
 ## How to review (discipline)
 
@@ -38,7 +46,11 @@ node tools/check-synopsis.js
 
 For every Section III installment (NN ≥ 10) it checks: **abstract = a single outer `<em>` span**
 (a trailing `**bold**` term or stray `*` dropping outside the span is the usual cause); section
-skeleton `## I.` … `## Кода`; **no LaTeX math**; a **README entry** links the file.
+skeleton `## I.` … `## Кода`; **no LaTeX math**; a **README entry** links the file. It also enforces
+the **canon denylist** (`tools/canon-denylist.json`) across installments **and** the README — locked
+terms like «степенное отношение», «дом/седалище» (→ «средоточие»), «впечатлительный», stray `ℏ` fail
+mechanically. Wire it to run on every commit: `git config core.hooksPath .githooks` (runs the
+committed `.githooks/pre-commit`).
 
 ## 2 — Translation review (RU-specific)
 

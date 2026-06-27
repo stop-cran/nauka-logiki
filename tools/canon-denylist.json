@@ -1,0 +1,22 @@
+[
+  {
+    "pattern": "степенн[а-яё]*\\s+отношени",
+    "message": "use «отношение степеней» (Potenzenverhältnis), never adjectival «степенное отношение»"
+  },
+  {
+    "pattern": "(категориальн|логическ|структурн)[а-яё]*\\s+\\*?дом",
+    "message": "seat/home of a category → «средоточие», not «дом»"
+  },
+  {
+    "pattern": "седалищ",
+    "message": "anatomical «седалище» — use «средоточие» for a category's seat/home"
+  },
+  {
+    "pattern": "впечатлительн",
+    "message": "false friend: «впечатлительный» = impressionable; for 'impressionistic' use «по впечатлению»"
+  },
+  {
+    "pattern": "ℏ",
+    "message": "use планковское «h», not «ℏ» — house canon"
+  }
+]
