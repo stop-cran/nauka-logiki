@@ -30,15 +30,18 @@ settled English + every cross-referenced sibling + both READMEs at once). Enforc
 operationally where the interface supports it (Copilot CLI `/subagents`, `/model`); otherwise rotation
 is a manual discipline.
 
-**Рецензент ≠ модель автора — твёрдый инвариант.** Модель рецензента должна отличаться от модели,
-которой выпуск был *написан*; иначе это однопроходная проверка той же моделью, теряющая весь смысл
-кросс-модельной вычитки. Маршрутизация закреплена в репозитории в `.github/copilot/settings.json`
-(`subagents.agents.<name>`): **два** рецензента, каждый на своём вендоре — `translation-reviewer-claude`
-(Opus) и `translation-reviewer-gpt` (GPT-5.5), оба при `xhigh` + `long_context`. У них разделение труда
-— Claude чаще ловит структуру, перенос канона и регрессионный дрейф; GPT — идиоматику и качество
-перевода, — поэтому при первой вычитке запускай **обоих** (проход вширь), а затем, после правок, —
-одновендорный **регрессионный** проход, пока раунд не станет чистым. Сменив вендора автора через
-`/model`, переключи модели так, чтобы автор не совпал ни с одним рецензентом.
+**Хотя бы один рецензент ≠ модель автора.** При первой вычитке (проход вширь) хотя бы один рецензент
+должен отличаться от модели, которой выпуск был *написан*; одновендорный рецензент всё равно полезен
+как **регрессионный / дополнительный** проход (ловит дрейф, внесённый правками прошлого раунда).
+Закреплённая пара Claude + GPT гарантирует это для черновика, написанного на GPT, Claude или Gemini:
+каким бы вендором ни писал автор, хотя бы один из двух рецензентов отличается. Маршрутизация —
+**единственный источник истины** в `.github/copilot/settings.json` (`subagents.agents.<name>`):
+`translation-reviewer-claude` (Opus) и `translation-reviewer-gpt` (GPT-5.5), оба при `xhigh` +
+`long_context`. У них разделение труда — Claude чаще ловит структуру, перенос канона и регрессионный
+дрейф; GPT — идиоматику и качество перевода, — поэтому при первой вычитке запускай **обоих** (проход
+вширь), а затем, после правок, — одновендорный **регрессионный** проход, пока раунд не станет чистым.
+Добавь третьего агента на Gemini как тай-брейкер / гарантированный кросс-модельный проход, когда автор
+сам на GPT или Claude.
 
 ## How to review (discipline)
 
@@ -67,7 +70,7 @@ committed `.githooks/pre-commit`).
 
 ## 2 — Translation review (RU-specific)
 
-- **Mirror the settled English exactly**: same structure (`## I.`–`## IX.` + `## Кода`), the same
+- **Mirror the settled English exactly**: same structure (`## I.`–`## N` contiguous Roman run + `## Кода`), the same
   single-`<em>` abstract, the same `§NN` cross-references, the same italic-plain math.
 - **Locked-terminology canon** (see `.github/copilot-instructions.md`). A change to any canon term
   must propagate to **all** installments **and both READMEs** — the retrofit ripple (e.g.

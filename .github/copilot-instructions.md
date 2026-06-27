@@ -17,7 +17,8 @@ Translate an installment **only after** its English counterpart is settled. Then
 3. Apply feedback **with judgment** (see below).
 4. Commit and push, GPG-signed.
 
-Mirror the English file precisely: abstract as a single `*…*` span, `## I.`–`## IX.` +
+Mirror the English file precisely: abstract as a single `*…*` span, `## I.`–`## N` (contiguous Roman
+run, N varies) +
 `## Кода`, and the same `§NN` cross-references. The author reviews each piece before
 authorizing the next — **never batch ahead**.
 
