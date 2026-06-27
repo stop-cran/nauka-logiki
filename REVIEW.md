@@ -29,6 +29,12 @@ settled English + every cross-referenced sibling + both READMEs at once). Enforc
 operationally where the interface supports it (Copilot CLI `/subagents`, `/model`); otherwise rotation
 is a manual discipline.
 
+**Рецензент ≠ модель автора — твёрдый инвариант.** Модель рецензента должна отличаться от модели,
+которой выпуск был *написан*; иначе это однопроходная проверка той же моделью, теряющая весь смысл
+кросс-модельной вычитки. Маршрутизация закреплена в репозитории в `.github/copilot/settings.json`
+(`subagents.agents.<name>`: здесь `translation-reviewer` → вендор, отличный от авторского, при `xhigh`
++ `long_context`). Сменив вендора автора через `/model`, переключи `model` рецензента, чтобы не совпали.
+
 ## How to review (discipline)
 
 - Review the **current** file, not a remembered one. Prefer a **word-diff against the
