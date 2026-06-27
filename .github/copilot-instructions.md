@@ -21,6 +21,12 @@ Mirror the English file precisely: abstract as a single `*…*` span, `## I.`–
 `## Кода`, and the same `§NN` cross-references. The author reviews each piece before
 authorizing the next — **never batch ahead**.
 
+**Review process.** Translators self-check and reviewers critique against `REVIEW.md` (the
+checklist, false-friend watchlist, severity rubric, and critique loop). Run the mechanical gate
+before submitting: `node tools/check-synopsis.js` (resolves `markdown-it` from the sibling
+`science-of-logic` repo if not installed locally). The `translation-reviewer` custom agent in
+`.github/agents/` encodes the review-only reviewer role.
+
 ## Handling review feedback
 
 Apply genuine idiom/grammar/precision fixes, but **hold** suggestions that conflict with
