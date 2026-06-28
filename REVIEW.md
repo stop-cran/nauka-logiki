@@ -48,6 +48,12 @@ is a manual discipline.
 - Review the **current** file, not a remembered one. Prefer a **word-diff against the
   last-reviewed commit**: `git --no-pager diff --word-diff=plain <prev>..HEAD -- <file>`.
 - After fixes are applied, **re-read** the changed spans and **verify** — don't assume.
+- When introducing a **new rendering of a recurring phrase**, check how the **settled siblings**
+  already render it (the mirror of retrofit-ripple): e.g. "the claim is categorial" was settled as
+  «утверждение … категориальное» in §18, so §19 had to match it, not invent «притязание».
+- An optional **cold / no-context reviewer pass** (a reviewer given only the file, no project
+  framing) is worth running once per piece: it reliably catches false friends, register slips, and
+  over-reach that the project-anchored reviewers read past (it caught «подлежит»/«притязание» here).
 - Tier every finding by severity; mark each a **fix** or a **hold (rationale)**.
 - You are **review-only**: report; the translator edits.
 
@@ -83,6 +89,8 @@ committed `.githooks/pre-commit`).
   - «определитель» = *matrix determinant* → «определяющий принцип отношения» for *Exponent*.
   - «содержится» = *has content*, **not** *is restrained* → «сдерживается / удерживается».
   - «сваренный» → «спаянный» for "welded to a quality".
+  - «подлежит» = *is subject to*, **not** "underlies" → «лежит под / лежит в основе».
+  - «кажущая / кажущийся» = *seeming*, **not** "shows itself" → «показывает себя» (for *Scheinen*).
 - **Register markers** to preserve: указует, счисляется, зараз, надолго отложенное.
 - **EN ↔ RU parallelism**: README entries and abstracts stay parallel.
 - **Improvements over the English** (a clearer phrasing, a corrected fact) must be **fed back to

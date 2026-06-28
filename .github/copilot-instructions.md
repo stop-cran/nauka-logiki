@@ -44,7 +44,9 @@ rationale**. Principled, reasoned holds are preferred over blanket acceptance.
 асимптота; **снятие / снять** (*Aufhebung*); **Мера** (*Maß*);
 **узловая линия отношений меры** (*Knotenlinie*); **безмерное** (*das Maßlose*);
 Сущность (*Essence*); **переход** (*Übergehen*) vs **просвечивание** (*Scheinen*);
-квант действия; «второй подкруг Учения о Бытии» for the sphere of Quantity.
+квант действия; «второй подкруг Учения о Бытии» for the sphere of Quantity;
+субстрат (*Substrat*); **абсолютное безразличие** (*absolute Indifferenz*); рефлексия (*Reflexion*);
+**снятое бытие** (*aufgehobenes Sein*); положенный / положенность (*gesetzt*); основание (*Grund*).
 
 Translation decisions to keep:
 
@@ -58,6 +60,12 @@ Translation decisions to keep:
 - "determinant of the ratio" → **«определяющий принцип отношения»** (avoid «определитель» =
   matrix determinant, a false friend).
 - "seat / home" of a category → **«средоточие»** (not «седалище», anatomical connotation).
+- "underlies" (a ground underlying its determinations) → **«лежит под / лежит в основе»**, never
+  **«подлежит»** (= *is subject to*, which reverses the relation).
+- "the claim is categorial" (the guardrail) → **«утверждение … категориальное»**, not
+  **«притязание»** (= *pretension / claim-to-validity*).
+- "essence shows itself" (in the *Schein* sense) → **«показывает себя»**, not «кажет / кажущая
+  себя» (collides with «кажущийся» = *seeming*, inverting the point that essence genuinely shows).
 - Archaic-register markers to preserve: **указует, счисляется, зараз** (atemporal "at once"),
   надолго отложенное.
 
