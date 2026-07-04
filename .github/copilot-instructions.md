@@ -51,9 +51,17 @@ rationale**. Principled, reasoned holds are preferred over blanket acceptance.
 **разность** (*Verschiedenheit*, not «разнообразие» = *Mannigfaltigkeit*); равенство / неравенство (*Gleichheit / Ungleichheit*);
 противоположность (*Gegensatz*); положительное / отрицательное; противоречие (*Widerspruch*);
 «уходить в основание» (*zu Grunde gehen*, the гибель/основание pun); законы мышления (тождества, непротиворечия, исключённого третьего);
-существенные отношения (*wesentliche Verhältnisse*, not «соотношения»).
+существенные отношения (*wesentliche Verhältnisse*, not «соотношения»);
+**опосредование** (*Vermittlung* / mediation — default for the category/process, not «опосредствование»).
 
 Translation decisions to keep:
+
+- *Vermittlung* / mediation → **«опосредование»** by default (idiomatic Hegelian Russian; pairs
+  with «непосредственность / опосредованное / опосредованность / самоопосредование»). Reserve
+  **«опосредствование»** only where the prose deliberately stresses mediation *by a means*
+  («средство»); for syllogistic/structural middle-term mediation prefer **«средний термин /
+  опосредующий момент»**, and **«опосредованность»** for the *state* of being mediated (not the
+  process). Established corpus norm: «опосредование» is uniform across all installments.
 
 - Hegel's "whole" (*das Ganze*) → **«единое целое»** when it sits next to numeric/mathematical
   language, to avoid collision with «целое (число)» = integer. The adjective-qualified
