@@ -47,6 +47,11 @@ rationale**. Principled, reasoned holds are preferred over blanket acceptance.
 квант действия; «второй подкруг Учения о Бытии» for the sphere of Quantity;
 субстрат (*Substrat*); **абсолютное безразличие** (*absolute Indifferenz*); рефлексия (*Reflexion*);
 **снятое бытие** (*aufgehobenes Sein*); положенный / положенность (*gesetzt*); основание (*Grund*).
+Определения рефлексии (*Reflexionsbestimmungen*): тождество (*Identität*); различие / различие в себе (*Unterschied*);
+**разность** (*Verschiedenheit*, not «разнообразие» = *Mannigfaltigkeit*); равенство / неравенство (*Gleichheit / Ungleichheit*);
+противоположность (*Gegensatz*); положительное / отрицательное; противоречие (*Widerspruch*);
+«уходить в основание» (*zu Grunde gehen*, the гибель/основание pun); законы мышления (тождества, непротиворечия, исключённого третьего);
+существенные отношения (*wesentliche Verhältnisse*, not «соотношения»).
 
 Translation decisions to keep:
 
