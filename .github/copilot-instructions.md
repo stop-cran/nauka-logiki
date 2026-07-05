@@ -62,6 +62,9 @@ Translation decisions to keep:
   («средство»); for syllogistic/structural middle-term mediation prefer **«средний термин /
   опосредующий момент»**, and **«опосредованность»** for the *state* of being mediated (not the
   process). Established corpus norm: «опосредование» is uniform across all installments.
+- *Reich der Schatten* / "realm of shadows" (Hegel's own name for pure Logic prior to its
+  release into Nature) → **«царство теней»** (standard scholarly Russian rendering). Do not
+  drift to «мир теней» or «царство призраков».
 
 - Hegel's "whole" (*das Ganze*) → **«единое целое»** when it sits next to numeric/mathematical
   language, to avoid collision with «целое (число)» = integer. The adjective-qualified
