@@ -53,6 +53,12 @@ rationale**. Principled, reasoned holds are preferred over blanket acceptance.
 «уходить в основание» (*zu Grunde gehen*, the гибель/основание pun); законы мышления (тождества, непротиворечия, исключённого третьего);
 существенные отношения (*wesentliche Verhältnisse*, not «соотношения»);
 **опосредование** (*Vermittlung* / mediation — default for the category/process, not «опосредствование»).
+Сфера Основания и Существования: **обоснованное** (*Begründetes*); **формальное / реальное / полное основание**;
+**форма** (*Form*) / **материя** (*Materie*) / **содержание** (*Inhalt*); гилеморфизм; **усыпляющая сила** (*virtus dormitiva*);
+**псевдо-объяснение**; принцип **достаточного основания** (*nihil est sine ratione*); **условие** (*Bedingung*);
+**сама суть дела** (*die Sache selbst*, женского рода — «она вступает в существование»; **не** «вещь», какая закреплена за *Ding*);
+**абсолютно безусловное**; **существование** (*Existenz*, vs **наличное бытие** = *Dasein*); **опосредованная непосредственность**;
+**вещь** (*Ding*); **явление** (*Erscheinung*); **действительность** (*Wirklichkeit*); причинность; взаимодействие.
 
 Translation decisions to keep:
 
@@ -65,6 +71,12 @@ Translation decisions to keep:
 - *Reich der Schatten* / "realm of shadows" (Hegel's own name for pure Logic prior to its
   release into Nature) → **«царство теней»** (standard scholarly Russian rendering). Do not
   drift to «мир теней» or «царство призраков».
+- *die Sache selbst* / "the fact itself" (the self-grounding totality of ground + all conditions,
+  §22) → **«сама суть дела»** (feminine; «она вступает в существование»). Keep it distinct from
+  *Ding* → **«вещь»** (§23), mirroring the English fact/thing split. Do **not** render *Sache* as
+  «вещь» here, which would collide with the coming *Ding*.
+- *Existenz* → **«существование»**, kept distinct from *Dasein* → **«наличное бытие»**; the
+  emergence from ground is a **«опосредованная непосредственность»**, not the bare immediacy of §10.
 
 - Hegel's "whole" (*das Ganze*) → **«единое целое»** when it sits next to numeric/mathematical
   language, to avoid collision with «целое (число)» = integer. The adjective-qualified
