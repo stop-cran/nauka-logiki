@@ -77,6 +77,11 @@ Translation decisions to keep:
   «вещь» here, which would collide with the coming *Ding*.
 - *Existenz* → **«существование»**, kept distinct from *Dasein* → **«наличное бытие»**; the
   emergence from ground is a **«опосредованная непосредственность»**, not the bare immediacy of §10.
+- Methodological *recollection* — an earlier determination reached again immanently in a richer
+  element, not remembered by a subject or externally reapplied by analogy — → **«имманентное
+  возвращение»**; use objective contextual variants such as **«узнанное вновь»** and
+  **«возвращающееся из самого движения»**. Reserve **«вобранное в себя»** for §19's distinct
+  inward-withdrawal sense.
 
 - Hegel's "whole" (*das Ganze*) → **«единое целое»** when it sits next to numeric/mathematical
   language, to avoid collision with «целое (число)» = integer. The adjective-qualified

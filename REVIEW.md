@@ -36,7 +36,7 @@ is a manual discipline.
 Закреплённая пара Claude + GPT гарантирует это для черновика, написанного на GPT, Claude или Gemini:
 каким бы вендором ни писал автор, хотя бы один из двух рецензентов отличается. Маршрутизация —
 **единственный источник истины** в `.github/copilot/settings.json` (`subagents.agents.<name>`):
-`translation-reviewer-claude` (Opus) и `translation-reviewer-gpt` (GPT-5.5), оба при `xhigh` +
+`translation-reviewer-claude` (Claude Opus 5) и `translation-reviewer-gpt` (GPT-5.6 Sol), оба при `xhigh` +
 `long_context`. У них разделение труда — Claude чаще ловит структуру, перенос канона и регрессионный
 дрейф; GPT — идиоматику и качество перевода, — поэтому при первой вычитке запускай **обоих** (проход
 вширь), а затем, после правок, — одновендорный **регрессионный** проход, пока раунд не станет чистым.
