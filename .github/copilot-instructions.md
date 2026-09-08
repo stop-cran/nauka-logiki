@@ -23,7 +23,11 @@ run, N varies) +
 authorizing the next — **never batch ahead**.
 
 **Review process.** Translators self-check and reviewers critique against `REVIEW.md` (the
-checklist, false-friend watchlist, severity rubric, and critique loop). Run the mechanical gate
+checklist, false-friend watchlist, severity rubric, and critique loop). A review is for
+**fidelity of the thought, attribution, and Russian readability** — above all for a line that
+asserts what its English counterpart was rewritten to deny. The mechanical gates already prove
+parity, references, and line counts, so don't spend a round re-deriving them, and don't report a
+finding whose whole content is a preferred synonym. Run the mechanical gate
 before submitting: `node tools/check-synopsis.js` (resolves `markdown-it` from the sibling
 `science-of-logic` repo if not installed locally). The `translation-reviewer-claude` and
 `translation-reviewer-gpt` custom agents in

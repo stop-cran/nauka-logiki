@@ -72,8 +72,50 @@ is a manual discipline.
 - An optional **cold / no-context reviewer pass** (a reviewer given only the file, no project
   framing) is worth running once per piece: it reliably catches false friends, register slips, and
   over-reach that the project-anchored reviewers read past (it caught «подлежит»/«притязание» here).
+- **Grep before acting on a finding — the diagnosis and the remedy are separate judgments.** A
+  reviewer may be right that a word is a calque and wrong about its replacement, because the
+  replacement it proposes is already the corpus's settled rendering of something else: «снаряд»
+  for *apparatus* (26:117, 26:141) survived exactly such a proposal. Take the diagnosis; verify
+  the remedy against the siblings on its own.
+- **When an installment recaps an earlier one, grep that installment for the recapped phrase.**
+  Two defects of this class have been found — the same Hegel quotation rendered two ways
+  (06:11 vs 27:107) and a two-part procedure whose second term drifted (25:119 vs 27:39).
+  Neither is visible from the English side or from any gate.
+- **A reviewer can be right that the Russian reads badly and wrong to change it**, when the
+  English reads the same way by design — a doubled *precise/exactly*, a deliberately repeated
+  verb. Check the English before repairing the Russian; the mirror, not Russian euphony, governs.
+- **Verify that a proposed fix is not already in the file.** One vendor has twice prescribed text
+  the line already contained, and once asked for Russian content absent from the English.
 - Tier every finding by severity; mark each a **fix** or a **hold (rationale)**.
 - You are **review-only**: report; the translator edits.
+
+## What the panel is for — and what it is not for
+
+**The scripts prove the mechanics; a reviewer is not the scripts.** `check-synopsis.js` here and
+`check-mirror.js` in the sibling repo already decide line counts, blank-line and emphasis parity,
+README linkage, denylisted terms, and EOL bytes. A round spent re-deriving them is wasted, and
+the reports that do it crowd out the findings only a reader can produce.
+
+Two things earn a reviewer's budget, in this order:
+
+1. **Fidelity of the thought, and the method it carries.** Does the Russian line assert what the
+   English line asserts — above all, does it assert something the English was *rewritten to deny*?
+   That is the defect this corpus has actually suffered, and no script can see it. Then: is the
+   attribution intact (Hegel's own claim vs. the translator's vs. ours), and does the Russian
+   preserve a distinction the argument needs rather than flattening it?
+2. **Readability in Russian.** Can a serious Russian reader follow the argument at full speed —
+   is the syntax Russian rather than calqued from English, does each paragraph land its verdict,
+   is a hard sentence hard because the thought is hard?
+
+Terminology and notation matter where they carry argument: a rendering that loses a категориальный
+distinction, a settled corpus term silently replaced, a false friend whose ordinary use pulls
+against the technical sense. They do not matter as housekeeping. **A finding whose entire content
+is a preferred synonym is not a finding** — say what the reader gains, and if the answer is only
+«так лучше звучит», hold it as Optional.
+
+Four rounds over §27 established the shape of the diminishing return: the *count* of fixes does
+not fall, but by the fourth round the reviewer begins re-litigating points already ruled on with
+a written warrant. That, not a falling count, is when to stop.
 
 ## 1 — Mechanical gates (must be green)
 
@@ -156,11 +198,17 @@ for($i=0;$i -lt $e.Count;$i++){
 
 ## Severity rubric
 
-- **Blocker** — breaks a mechanical gate, factual error, or canon violation.
-- **High** — mistranslation, fidelity error, broken cross-reference.
-- **Medium** — terminology drift, register slip, inconsistency with a sibling installment.
-- **Low** — idiom, grammar, polish.
-- **Optional** — taste; offer, don't press.
+Severity tracks **what the reader loses**, not how formal the defect is.
+
+- **Blocker** — a Russian line asserting what its English counterpart denies (stale-draft drift);
+  a factual error; a canon violation. Also a red mechanical gate.
+- **High** — a mistranslation that changes the claim; a lost distinction the argument needs; a
+  misattribution; a passage a competent Russian reader cannot follow. A cross-reference is High
+  only when following it lands the reader on the wrong argument.
+- **Medium** — terminology drift from the settled siblings; a register slip; a calqued
+  construction that costs the sentence its force; a paragraph that loses its verdict.
+- **Low** — idiom, grammar, spelling, and polish with an argumentative payoff.
+- **Optional** — taste; offer, don't press. Synonym preferences live here or nowhere.
 
 ## Review output format
 
