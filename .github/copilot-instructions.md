@@ -39,6 +39,24 @@ Apply genuine idiom/grammar/precision fixes, but **hold** suggestions that confl
 fidelity, the locked terminology, or the chosen register — **always with an explicit
 rationale**. Principled, reasoned holds are preferred over blanket acceptance.
 
+**Never strengthen a hedged claim in translation.** The mirror must carry the English claim at the
+**same strength**, and a universal negative is where this fails silently — the Russian reads better
+for having been sharpened, which is exactly why it survives review. At §02 the English "a formula he
+**does not use as the name of his method**" — bounded and checkable — had been rendered «формула,
+которой Гегель **никогда не пользовался**», an unbounded claim the English had deliberately avoided;
+the same line turned "given currency by Chalybäus" into «**подсунута** ему Халибеусом», an accusation
+the original does not make. Where the English hedges, find the Russian hedge; do not resolve it into
+a stronger, cleaner sentence. Sweep the mirror for `нигде не`, `никогда не`, `не существовал`,
+`впервые`, and read each hit against its English line rather than on its own.
+
+**Render a repeated quotation identically across installments.** The same sentence of Hegel must not
+arrive in two Russian dresses. §09:13 carried «**Истина есть целое**» while §04:13, quoting the same
+sentence of the *Phenomenology* Preface, carries «**Истинное есть целое**» — and §09 named no source
+at all, so the reader met an unattributed variant of a thesis the corpus had already fixed. Before
+rendering any quotation, grep `конспект/` for it and reuse the established wording, or change every
+occurrence together. The same discipline applies to a claim's **owner**: §05's «в точности притязание
+Гегеля» asserted as Hegel's what §26 had already ruled the analysis "neither validates nor refutes".
+
 ## Locked terminology (canon — keep consistent across all installments)
 
 квант (*Quantum*); число / численность (*Anzahl*) / единица (*Einheit*);
