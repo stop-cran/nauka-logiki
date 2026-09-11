@@ -67,7 +67,7 @@ occurrence together. The same discipline applies to a claim's **owner**: §05's 
 **узловая линия отношений меры** (*Knotenlinie*); **безмерное** (*das Maßlose*);
 Сущность (*Essence*); **переход** (*Übergehen*) vs **просвечивание** (*Scheinen*);
 квант действия; «второй подкруг Учения о Бытии» for the sphere of Quantity;
-субстрат (*Substrat*); **абсолютное безразличие** (*absolute Indifferenz*); рефлексия (*Reflexion*);
+субстрат (*Substrat*); **абсолютная неразличенность** (*absolute Indifferenz*); рефлексия (*Reflexion*);
 **снятое бытие** (*aufgehobenes Sein*); положенный / положенность (*gesetzt*); основание (*Grund*).
 Определения рефлексии (*Reflexionsbestimmungen*): тождество (*Identität*); различие / различие в себе (*Unterschied*);
 **разность** (*Verschiedenheit*, not «разнообразие» = *Mannigfaltigkeit*); равенство / неравенство (*Gleichheit / Ungleichheit*);
