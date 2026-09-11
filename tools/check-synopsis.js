@@ -49,9 +49,14 @@ const files = fs.readdirSync(dir).filter(f => /^\d+.*\.md$/.test(f)).sort();
 let failures = 0;
 const fail = (file, msg) => { console.log(`  ✗ ${file}: ${msg}`); failures++; };
 
+// Canon rules lock the corpus's own terminology; they must never police a quotation, whose wording
+// belongs to the cited translator. Blank the interior of each «…» span, preserving offsets so the
+// reported line numbers stay accurate.
+const maskQuotations = ln => ln.replace(/«[^»]*»/g, m => '«' + ' '.repeat(m.length - 2) + '»');
+
 // Scan a source string line-by-line against the canon denylist; report under `label`.
 const scanCanon = (label, text) => {
-  const lines = text.split(/\r?\n/);
+  const lines = text.split(/\r?\n/).map(maskQuotations);
   for (const rule of denyRules) {
     lines.forEach((ln, i) => { if (rule.re.test(ln)) fail(label, `canon: ${rule.message} — line ${i + 1}`); });
   }
