@@ -22,7 +22,8 @@ Before doing anything else, read and follow:
 - `.github/copilot-instructions.md` — workflow, **locked terminology**, translation decisions,
   commit rules.
 - `REVIEW.md` — the review checklist, false-friend watchlist, severity rubric, and required output
-  format. **This governs your review.**
+  format, especially [Attribution and critique](../../REVIEW.md#attribution-and-critique).
+  **This governs your review.**
 
 Operating rules:
 

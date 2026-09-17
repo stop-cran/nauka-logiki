@@ -6,6 +6,29 @@ roles: the **translator** self-checking *before submitting*, and the **`translat
 Mirrors the English repo's `REVIEW.md`, plus a translation-specific section. Run every
 round.
 
+## Attribution and critique
+
+The shared philosophical contract is canonical in
+[English REVIEW.md — Attribution and critique](https://github.com/stop-cran/science-of-logic/blob/master/REVIEW.md#attribution-and-critique)
+(local sibling: `..\science-of-logic\REVIEW.md`). This section governs its **preservation in
+translation**, checked by the translator and reviewer, rather than duplicating its definition.
+
+- Preserve the English claim's **owner, scope, and warrant**: do not turn our methodological
+  inference into Hegel's reported statement, or a criticism of a particular verdict into a denial
+  of his method. Preserve concessions and the distinction between a result and its further limits.
+- Check the grammatical owner of a criterion as well as the owner of a quotation. Apply the
+  ambiguity checks in `.github/copilot-instructions.md`; a fluent possessive can change the argument.
+- A faithful translation of a questionable English argument is not a mistranslation. Report the
+  issue for **English review**, with its warrant or unresolved question; do not silently repair
+  the philosophy in Russian or reject a faithful critical passage merely for disagreeing with Hegel.
+- A confined reviewer may have the supplied English installment but not the shared contract or
+  primary editions. Name that limit: compare the texts available, and hand off claims requiring
+  unavailable evidence rather than certify them or expand tool access.
+
+**Grounding, 2026-09-17:** the §27 calculus correction (`b89ce77`) exposed a criterion-ownership
+ambiguity as well as the need to preserve the distinction between textual report and criticism.
+Report new rule gaps to the author in Questions; amendments need an observed escape or source.
+
 ## The critique loop
 
 1. **Translator** translates/edits an installment (only after its English is settled), runs the
@@ -172,14 +195,8 @@ for($i=0;$i -lt $e.Count;$i++){
   - «сваренный» → «спаянный» for "welded to a quality".
   - «подлежит» = *is subject to*, **not** "underlies" → «лежит под / лежит в основе».
   - «кажущая / кажущийся» = *seeming*, **not** "shows itself" → «показывает себя» (for *Scheinen*).
-- **Двусмысленности, каких английский не допускает** (проверяй в каждой новой вставке):
-  - **обратная агентность в придаточном** — «какое производит сам непокой случайности» по
-    умолчанию читается наоборот (им. = вин. и у «какое», и у «непокой»); для «X порождает Y»
-    ставь страдательный залог с творительным: «какое производится самим беспокойством»;
-  - **голые отглагольные существительные** — «обращение» (переворот / обращение к),
-    «признание» (признание / исповедь): бери однозначное слово, тем более если соседний выпуск
-    приучил к другому смыслу;
-  - **непереходное в переходной рамке** — «что кончает здесь» вместо «что здесь кончается».
+- **Двусмысленности, каких английский не допускает:** проверяй каждую новую вставку по
+  [единому перечню с примерами](.github/copilot-instructions.md#двусмысленности-какие-ловятся-разбором-а-не-слухом).
 - **Терминология — по `ГЛОССАРИЙ.md`** (немецко-англо-русская таблица в корне репозитория,
   подаётся в этот разбор целиком). Русский термин берётся из канона, **не** переводится с
   английского столбца: тот дан для сверки с зеркалом. Расхождение корпуса с таблицей есть
