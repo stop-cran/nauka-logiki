@@ -18,6 +18,10 @@ translation**, checked by the translator and reviewer, rather than duplicating i
   of his method. Preserve concessions and the distinction between a result and its further limits.
 - Check the grammatical owner of a criterion as well as the owner of a quotation. Apply the
   ambiguity checks in `.github/copilot-instructions.md`; a fluent possessive can change the argument.
+- Preserve distinctions between entry, justification, and historical conditions where the English
+  makes them, without severing their connection. The §02 review (2026-09-30) supplies the case:
+  logical presuppositionlessness does not deny historical conditions. Apply the shared contract
+  above rather than inventing a separate Russian account of these relations.
 - A faithful translation of a questionable English argument is not a mistranslation. Report the
   issue for **English review**, with its warrant or unresolved question; do not silently repair
   the philosophy in Russian or reject a faithful critical passage merely for disagreeing with Hegel.
