@@ -22,6 +22,12 @@ translation**, checked by the translator and reviewer, rather than duplicating i
   makes them, without severing their connection. The §02 review (2026-09-30) supplies the case:
   logical presuppositionlessness does not deny historical conditions. Apply the shared contract
   above rather than inventing a separate Russian account of these relations.
+- Preserve the distinction between logical derivation, concrete realization, and the warrant
+  connecting them. The §09/§27 follow-up (2026-10-01) exposed the risk of making a corrected
+  attribution certify Hegel's organic boundary, or making a general derivation certify an
+  inorganic extension. Preserve his positive case and the scientific achievement without
+  deciding the open question in translation. The English working essay is an advisory case
+  study, not a Russian essay or a verdict added to the shared contract.
 - A faithful translation of a questionable English argument is not a mistranslation. Report the
   issue for **English review**, with its warrant or unresolved question; do not silently repair
   the philosophy in Russian or reject a faithful critical passage merely for disagreeing with Hegel.
