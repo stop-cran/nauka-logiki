@@ -35,6 +35,8 @@ before submitting: `node tools/check-synopsis.js` (resolves `markdown-it` from t
 
 For translation as well as review, apply [Attribution and critique](../REVIEW.md#attribution-and-critique):
 it points to the shared philosophical contract and defines the Russian preservation checks.
+In scientific passages, preserve that contract's distinction between a categorial limit and
+scientific immunity.
 
 ## Handling review feedback
 

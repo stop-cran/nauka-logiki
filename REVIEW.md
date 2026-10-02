@@ -28,6 +28,10 @@ translation**, checked by the translator and reviewer, rather than duplicating i
   inorganic extension. Preserve his positive case and the scientific achievement without
   deciding the open question in translation. The English working essay is an advisory case
   study, not a Russian essay or a verdict added to the shared contract.
+- Preserve the shared distinction between a categorial limit and scientific immunity. The old
+  §19 mirror insulated Hegel's physical claims from mechanics; retaining that blanket guardrail
+  would reverse the corrected English. Preserve the scientific check and the separate reservation
+  about quantitative equilibrium without making either a verdict on the other.
 - A faithful translation of a questionable English argument is not a mistranslation. Report the
   issue for **English review**, with its warrant or unresolved question; do not silently repair
   the philosophy in Russian or reject a faithful critical passage merely for disagreeing with Hegel.
@@ -231,7 +235,8 @@ for($i=0;$i -lt $e.Count;$i++){
 ## 3 — Consistency & fidelity
 
 - Cross-references (§NN threads, ordinal counts) accurate against the cited installments.
-- Categorial-not-empirical guardrail preserved wherever physics appears.
+- Scientific-claim scope preserved per Attribution and critique above; no restored scientific
+  immunity or silently strengthened English criticism.
 
 ## Severity rubric
 
