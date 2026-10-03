@@ -13,6 +13,8 @@ Its repository is https://github.com/stop-cran/book-skills.
 The shared skill and engine own preparation, probing, authentication, caching,
 completion manifests, metadata, preview approval, and error handling. Do not copy
 that implementation into this repository.
+Use the shared `workflow.py` for durable plans, representative passage previews,
+approval records and final verification; keep its records in ignored output.
 
 The local configuration selects Russian chapters 1-29, no README, with the Russian
 voice and SSML locale. Do not use the English book profile. Do not change settled
