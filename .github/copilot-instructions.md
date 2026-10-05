@@ -64,6 +64,20 @@ occurrence together. The same discipline applies to a claim's **owner**: §05's 
 
 ## Проверка цитаты
 
+**Source-tool entry point.** Use the shared `source-consultation` skill in
+`book-skills\.github\skills\source-consultation\SKILL.md`
+([canonical skill](https://github.com/stop-cran/book-skills/blob/main/.github/skills/source-consultation/SKILL.md)).
+First read this book's ignored `.source-workbench.local.json` for the explicit
+`book_skills_root`, `workbench_root`, and `config` paths; otherwise ask for those paths
+or use explicitly supplied environment bindings documented by the skill. Do not scan
+the home directory, copy the runtime, or execute historical chapter-audit scripts.
+The routing JSON is not the CLI's TOML configuration. In Copilot CLI, `/add-dir` for the
+skill checkout exposes its skills; a link alone does not install them.
+Keep evidence and the separate consultation judgment in ignored `.source-consultations/`.
+This skill supplies the retrieval/preservation workflow; the Russian-edition and
+attribution rules below remain authoritative. A confined reviewer unable to access the
+checkout must report that limitation, not widen its tool boundary or upload sources.
+
 **Черновик — по памяти, набело — только по изданию.** Цитата, какую ни разу не сверили с текстом
 издания, есть черновик, сколь бы твёрдой ни была память. Английское зеркало источником сверки
 **не служит**: оно указывает место у Гегеля, а слова даёт русское издание (Столпнер), — и совпадение
